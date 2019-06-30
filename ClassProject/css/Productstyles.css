@@ -1,0 +1,450 @@
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E5C687;
+}
+
+/* Style specifies the width and border radius for the images on the articles*/
+img, .flooring{
+	width:90%;
+	border-radius: 0.5em;	
+}
+
+
+/* Style defines the width of the first logo */
+.logo1 {
+		max-width: 65%;
+	}
+
+/* Style defines the width of the second logo */
+.logo2 {
+		max-width: 100%;
+	}
+
+
+.specification.table-striped-even tr:nth-child(2n) th, .specification.table-striped-odd tr:nth-child(odd) th, .table-striped-even tr:nth-child(2n) td, .table-striped-odd tr:nth-child(odd) td {
+    background-color: #dfebed;  /*grey */
+}
+
+.table.specification .display-name {
+    color: #444;
+}
+
+.specification.table th, .table td {
+    padding: 7px 15px;
+}
+.specification .display-name {
+    color: #666;
+}
+.table {
+    margin: 20px 0 0;
+    min-width: 100%;
+    padding: 0;  
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #444;
+    font-size: 14px;
+    font-size: .875rem;
+}
+table {
+	border: ridge;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: coral;
+	border-width: .5em;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border: 3em;
+	border-color: coral;
+}
+td, th {
+    text-align: inherit;
+}
+
+td, th {
+    text-align: inherit;
+}
+
+header img, header a{
+    background-color: transparent;
+    max-width: 7%;
+	border-radius: 0.5em;
+ 
+}
+
+
+/* Style for container centers the page and sets the element width*/
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style defines padding, border-radius, background-color, and opacity of the caption belows the mobile banner */
+figcaption {
+	padding: 1em;
+    border-radius: 2em 0 2em 0;
+    background-color: #a9a9a9;
+    opacity: 0.85;
+}
+
+/* Style defines the header of the mobile view */
+header {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-align: center;
+	padding: 2em;
+	border-width: 0.4em;
+	border-style: solid;
+	border-color: coral;
+	border-radius: 3em;
+	background-color: #93032E;
+	width: auto;
+}
+
+/* Style defines the font and aligment of the text for the nav */
+nav {
+	font-family: Verdana, Arial, serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+/* Style specifies the margin-top and padding for the unordered list within the nav */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+}
+
+/* Styles defines the background-color and borders for the items within the nav */
+nav li {
+	background-color: #93032E;
+	border-style: double;
+	border-width:0.5em;
+	border-color: coral;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.2em;
+	padding: 0.3em;
+	
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#mobile {
+	display: inline;
+}
+
+#desktop {
+	display: none;
+}
+
+main{
+	font-family:Verdana,Arial,sans-serif;
+	text-align: center;
+	margin-top:0.5em;
+	padding:1em;
+	border-radius:2em;
+	border-style: double;
+	border-width:0.5em;
+	border-color: coral;
+	border-radius: 2em;
+	background-color:#93032E;
+}
+
+main a {
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	display:block;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 0.5em;
+	border-top: 0.5em solid coral;
+	border-bottom:0.5em solid coral;
+}
+
+main h4 {
+	color: #FFFFFF;
+	font-size: 1.6em;
+	
+}
+
+main section, .Floor, section.Floor, section.lawn{
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: 0.5em;
+	background-color: #E5C687;
+	margin-top:0.7em;
+	margin-bottom:0.7em;
+	border-radius: 1em;
+	border-style: double;
+	border-color: #93032E;
+	border-width: 0.3em;
+}
+
+footer {
+	font-family: Verdana, Arial, serif;
+	color: #1D1D1C;
+	font-size: 0.7em;
+	font-weight: bold;
+	text-align: center;
+	border-top: 0.5em solid #93032E;
+	margin-top: 2em;
+	padding-top: 1em;
+}
+
+.tablet {
+	display: none;
+}
+
+@media only screen and (min-width: 660px) {
+	.logo1 {
+		max-width:17%;
+	}
+	
+	.logo2 {
+		max-width:77%;
+	}
+
+    header {
+		border-width: 1em;
+		border-style: ridge;
+		border-color: coral;
+		border-radius:1em;
+	}
+	
+	nav li {
+    border-radius:1em;}
+	
+	main {
+	border-radius: 1em;
+	}
+	
+	main section {
+		display: inline-block;
+		width: 28%;
+	}
+	
+
+@media only screen and (min-width: 830px) {
+.logo1 {
+		max-width: 7%;
+	}
+
+	.logo2 {
+		max-width: 33%;
+	}
+
+	#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C687
+	}
+
+	body {
+		background-color: #E5C687;
+		max-width:100%;
+	}
+
+	header {
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+		text-align: center;
+		padding: 2em;
+		border-width: 1em;
+		border-style: ridge;
+		border-color: coral;
+		border-radius:0;
+		background-color: #93032E;
+		width: auto;
+	}
+	
+	
+	nav {
+		font-family: Verdana, Arial, serif;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	nav li {
+		background-color: #93032E;
+		border-style: double;
+		border-width:0.5em;
+		border-color: coral;
+		border-radius: 0;
+		list-style-type: none;
+		margin: 0.5em;
+		padding: 0.5em;
+		display:inline-block;
+		max-width:100%;
+		width:14.7%;
+	}
+
+	nav li a{
+		color: #FFFFFF;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	nav ul {
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	
+
+	nav li a:hover {
+			font-weight: bold;
+			font-size: 1.1em;
+	}
+	
+
+	
+	
+	
+	main{
+	font-family:Verdana,Arial,sans-serif;
+	text-align: center;
+	margin-top:0.5em;
+	padding:1em;
+	border-radius:1em;
+	border-style: solid;
+	border-width:0.5em;
+	background-color:#93032E;
+}
+
+	
+	#mobile {
+		display: none;
+	}
+	
+	#desktop {
+		display: inline;
+	}
+		
+
+	article h4 {
+		text-align: center;
+	}
+
+	main section {
+	color: #FFFFFF;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 0.7em;
+	background-color: #E5C687;
+    margin-bottom: 0.7em;
+    border-radius: 1em;
+    border-style: none;
+    border-width: 0;
+	width:99%;
+	
+	}
+	
+	main a {
+		border-top: none;
+		border-bottom: none;
+	}
+	
+	h1, h2{
+		font-family: Verdana, Arial, serif;
+		text-align:center;
+		color: #FFFFFF;		
+		border: solid;
+		background-color: #93032e;
+		border-color: coral;
+		
+	}
+	
+	h2, h1 {		
+		border:solid;		
+		border-color:coral;		
+		background-color: darkgreen;
+		margin-right: 1%;
+	}
+
+	h1.H_Floor{
+		font-size: 300%;
+		background-color: brown;
+	}
+	h1.head{
+		background-color: yellow;
+		color: black;
+		font-size: 300%;
+	}
+
+	
+	img  {
+	border-radius: 0.5em;
+	
+	}
+
+	article {
+		
+		margin: 0.5%;
+		padding: 0.5%;
+		background-color: #f1ab86;
+		display: inline-block;
+		width:31%;
+		height:30%;
+		border-radius: 0.5em;
+		float:left;
+
+	}
+	
+	figure {
+	color: #FFFFFF;
+    font-size: 1.2em;
+	font-weight: bold;
+    padding: 0.5em;
+	margin: 0;
+    background-color: coral;
+    border-radius: 1em;
+    border-style: double;
+    border-color: #93032E;
+    border-width: 0.3em;
+	}
+	
+
+	h4 {
+		font-family: Verdana, Arial, serif;
+		color: #93032E;
+		font-weight: bold;
+	}
+
+	P {
+		text-align: justify;
+		font-family: Verdana, Arial, serif;
+		color: #93032E;
+		margin:1em;	
+	}
+
+	footer {
+		font-family: Verdana, Arial, serif;
+		color: #1D1D1C;
+		font-size: 0.8em;
+		font-weight: bold;
+		text-align: center;
+		border-top: 0.5em solid #93032E;
+		margin-top: 2em;
+		padding-top: 1em;
+	}
+	
+	.lawn{
+		background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Summer-HD-Wallpaper-Grass.jpg);
+	background-size: cover;	
+	}
+	.tablet {
+	display:none;}
+
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hardware R US</title>
+	<link rel="stylesheet" href="css/subscribeStyles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="container">
+
+	<header>
+		<a href="home.html"><img src="images/logo.png" class="logo1" alt="Logo1"></a>
+		<a href="home.html"><img src="images/logo2.png" class="logo2" alt="Logo2"></a>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="subscribe.html">Subscribe</a></li>
+			
+		</ul>
+	</nav>
+	
+	<main>
+		<h1>Sign up for exclusive offers!</h1>
+		
+		<section class="login">
+		<h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+       
+		
+		<button onclick="inFunction()">Sign in</button>
+
+		<div id="logInMessage" class="hiddenIN">
+		Thank you for signing in!
+		</div>
+
+		<script>
+		function inFunction() {
+			var x = document.getElementById("logInMessage");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} else {
+				x.style.display = "none";
+			}
+		}
+		</script>
+		</section>
+		
+		<section class	="signup">
+		<div id="desktopup">
+		<button onclick="outFunction()"><img src="images/signUp.jpeg" alt="Sign Up"></button>
+		</div>
+		<div id="mobileup">
+		<button onclick="outFunction()"><img src="images/signUpMobile.png" alt="Sign Up"></button>
+		</div>
+		<div id="logOutFunction" class="hiddenUP">
+		<form>
+           <label for="fName">First Name:</label>
+           <input type="text" id="fName" name="fName">
+            
+           <label for="lName" style="margin-left: 2em;">Last Name:</label>
+           <input type="text" id="lName" name="lName"><br><br>
+		   
+		   <label for="username">Username:</label>
+           <input type="text" id="username" name="username"><br><br>
+            
+           <label for="password">Password:</label>
+           <input type="password" id="password" name="password">
+		   
+		   <label for="password2" style="margin-left: 2em;">Repeat password:</label>
+           <input type="password" id="password2" name="password2"><br><br>
+            
+           <label for="email">Email:</label>
+           <input type="text" id="email" name="email"><br><br>
+		   
+		   <label for="phone">Phone Number:</label>
+           <input type="text" id="phone" name="phone"><br><br>
+		   
+		   <div id="formbuttons">
+		   <input type="submit" id="submit" value="Submit" class="btn">
+		   <input type="reset" id="reset" value="Reset Form" class="btn">
+		   </div>
+        </form>
+		</div>
+		
+		<script>
+		function outFunction() {
+			var x = document.getElementById("logOutFunction");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} else {
+				x.style.display = "none";
+			}
+		}
+		</script>
+		</section>
+	</main>
+	
+<nav >
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="careers.html">Careers</a></li>
+		</ul>
+	</nav>
+		
+	<footer>
+    © 1961-2017 Hardware R Us Product Authority, LLC. All Rights Reserved. Use of this site is subject to certain Terms Of Use.
+	Local store prices may vary from those displayed. Products shown as available are normally stocked but inventory levels cannot be guaranteed
+	For screen reader problems with this website, please call 1-888-888-888.
+	</footer>
+
+	</div>
+</body>
+</html>

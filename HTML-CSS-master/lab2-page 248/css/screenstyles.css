@@ -1,0 +1,190 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E0F0FF;
+}
+img{
+	max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000066;
+}
+
+#banner {
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+/*Style specifies padding and marin for unordered list*/
+nav ul{
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+/*Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation*/
+nav li{
+	background-color: #000066;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+}
+/*Style changes navigation link text color to white and removes the underline*/
+nav li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*Style displays the mobile class*/
+.mobile{
+	display: inline;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+@media only screen and (min-width: 481px){
+img{
+	width: 80%;
+}
+nav li{
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+	}
+	
+	main{
+	clear: left;	
+	}
+	
+	article h3{
+		text-align: center;
+	}
+	
+	figure{
+		text-align: center;
+	}
+	
+	figcaption{
+		color:#000066;
+	}
+	
+	section{
+		padding: 1em;
+	}
+	
+	article{
+		margin: 1em;
+		padding: 1em;
+		background-color: #ACB7E6;
+	}
+	
+	.mobile{
+		display: none;
+	}
+	
+	.desktop{
+		display: inline;
+	}
+	
+}
+
+@media only screen and (min-width: 769px){
+	#container{
+		width: 80%
+	}
+	
+	nav ul{
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.05%;
+	}
+	
+	nav li{
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+		white-space: nowrap;
+	}
+	
+	nav li a{
+		display: inline-block;
+		padding: 0.7em;
+		font-size: 1.25em;
+	}
+	section article{
+		width: 22%;
+		float: left;
+		height: 15em;
+		
+	}
+	main{
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+		background: -moz-linear-gradient(#FFFFFF, #3366CC); /*Firefox*/
+		background:-o-linear-gradient(#FFFFFF, #3366CC); /*Opera*/
+		background:-webkit-linear-gradient(#FFFFFF, #3366CC); /*chrome, safari*/
+		background: linear-gradient(#FFFFFF, #3366CC);
+	}
+	
+	
+}
+
+nav li a:link{
+	color: #FFFFFF;
+}
+
+nav li a:hover{
+	color: #CCFFCC;
+	font-size: 1em;
+}
+
+
+
+

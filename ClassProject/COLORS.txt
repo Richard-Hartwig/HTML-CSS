@@ -1,0 +1,8 @@
+#ff7f50   - Orange border
+#93032E - Backgroundcolor / base with with white text
+
+
+#E5C687  - light brown  background color #container
+
+
+#F1AB86 = peach
